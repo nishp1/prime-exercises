@@ -1,1 +1,2 @@
-# prime-exercises
+# Prime exercise set
+Prime is the offical exercise set created and used by Gympro. It is covered by a creative commons, do as you wish, license. Hope you find them useful, and keep an eye out for updates.
