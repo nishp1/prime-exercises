@@ -1,0 +1,33 @@
+a.gympro-button {
+    color: #fff;
+    background-color: #6bbd2e;
+    border-color: #5fa829;
+    padding:0px 60px;
+    height: 50px;
+    line-height: 50px;
+}
+a.gympro-button:hover {
+    color: #fff;
+    background-color: #4e8e16;
+    border-color: #427813;
+}
+.muted {
+    color:#ccc;
+}
+.btn-wrap {
+    text-align: center;
+    padding-top:35px
+}
+#exercises {
+    padding-top: 60px;
+}
+a.dark-link {
+    color:#222;
+    text-decoration: none;
+}
+.ex-wrap {
+    text-align: center;
+}
+.ex-wrap img {
+    max-height: 100px;
+}
