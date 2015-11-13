@@ -6,28 +6,90 @@ a.gympro-button {
     height: 50px;
     line-height: 50px;
 }
-a.gympro-button:hover {
+
+a.gympro-button:hover,
+a.gympro-button:focus {
     color: #fff;
     background-color: #4e8e16;
     border-color: #427813;
 }
+
 .muted {
     color:#ccc;
 }
+
 .btn-wrap {
-    text-align: center;
-    padding-top:35px
+    text-align: right;
+    padding-top:45px
 }
+
 #exercises {
-    padding-top: 60px;
+    padding: 60px 0;
 }
+
 a.dark-link {
     color:#222;
     text-decoration: none;
 }
+
+a.grey-link {
+    color:#ccc;
+}
+
 .ex-wrap {
     text-align: center;
+    vertical-align: middle;
 }
+
 .ex-wrap img {
     max-height: 100px;
+    max-width: 100px;
+}
+
+.ex-wrap .ex {
+    height: 110px;
+}
+
+.ex-wrap .label {
+    min-height: 40px;
+    line-height: 17px;
+     /* These are technically the same, but use both */
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+
+    -ms-word-break: break-all;
+    /* This is the dangerous one in WebKit, as it breaks things wherever */
+    word-break: break-all;
+    /* Instead use this non-standard one: */
+    word-break: break-word;
+
+    /* Adds a hyphen where the word breaks, if supported (No Blink) */
+    -ms-hyphens: auto;
+    -moz-hyphens: auto;
+    -webkit-hyphens: auto;
+    hyphens: auto;
+}
+
+.github-corner:hover .octo-arm {
+    animation:octocat-wave 560ms ease-in-out
+}
+
+@keyframes octocat-wave{
+    0%,100%{transform:rotate(0)}
+    20%,60%{transform:rotate(-25deg)}
+    40%,80%{transform:rotate(10deg)}
+}
+
+@media (max-width:500px){
+    .github-corner:hover .octo-arm {
+        animation:none
+    }
+
+    .github-corner .octo-arm {
+        animation:octocat-wave 560ms ease-in-out
+    }
+
+    .btn-wrap {
+        text-align: center;
+    }
 }
